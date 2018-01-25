@@ -1,0 +1,21 @@
+body {
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+#videoContainer {
+    margin: 2em auto 0;
+    width: 500px;
+    padding: 2em;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 10px #d9d9d9;
+    -moz-box-shadow: 0 1px 10px #d9d9d9;
+    -ms-box-shadow: 0 1px 10px #d9d9d9;
+    -o-box-shadow: 0 1px 10px #d9d9d9;
+    box-shadow: 0 1px 10px #d9d9d9;
+}
+
+#stream {
+    -webkit-filter: sepia(1)
+}
