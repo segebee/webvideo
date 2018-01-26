@@ -19,3 +19,29 @@ body {
 #stream {
     -webkit-filter: sepia(1)
 }
+
+#snap {
+    display: block;
+    background: rgb(109, 209, 109);
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#imageContainer {
+    display: none;
+    margin: 2em auto 0;
+    width: 500px;
+    padding: 2em;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 10px #d9d9d9;
+    -moz-box-shadow: 0 1px 10px #d9d9d9;
+    -ms-box-shadow: 0 1px 10px #d9d9d9;
+    -o-box-shadow: 0 1px 10px #d9d9d9;
+    box-shadow: 0 1px 10px #d9d9d9;
+}
